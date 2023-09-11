@@ -20,12 +20,12 @@ Before running this project, make sure you have the following prerequisites inst
 
 - Ensure that you configure Kafka properties in application.properties based on your setup.
 
-Execution
+##  Execution
 To run the application, use your IDE or run the following command from the command line:
 
 ./mvnw spring-boot:run
 
-Usage
+##  Usage
 Once the application is up and running, you can send messages via the REST API. Use the following endpoint to send a message
 
 POST /message
