@@ -1,0 +1,10 @@
+server.port: 9595
+
+spring:
+  kafka:
+      bootstrap-servers: localhost:9092
+
+message:
+  topic:
+    name:
+      default: default
